@@ -261,6 +261,7 @@ body {
 .my-flipster--nav-future-text-bold {
     font-size: 20px;
     color: #fff;
+    /*color: #27414e;*/
     display: block;
     text-transform: none;
 }
@@ -271,7 +272,20 @@ body {
     position: relative;
     display: inline-block;
     font-weight: 300;
+    /*color: white;*/
+    color: #27414e;
+    line-height: 0.8;
+    text-align: right;
+}
+
+.slide-3 .slider__link {
+    font-family: 'Alegreya Sans';
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
     color: white;
+    /*color: #27414e;*/
     line-height: 0.8;
     text-align: right;
 }
@@ -287,9 +301,20 @@ body {
     font-size: 15px;
     display: block;
     padding-top: 30px;
+    letter-spacing: 1.1px;
 }
 
 .slider__link--more:before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 11px;
+    position: absolute;
+    background: url(../img/icon--more-arrow-dark.svg) no-repeat;
+    right: 120px;
+}
+
+.slide-3 .slider__link--more:before {
     content: '';
     display: block;
     width: 24px;
