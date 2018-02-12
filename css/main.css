@@ -510,7 +510,21 @@ body {
 @media screen and (orientation: landscape) and (max-width: 992px) {
     .rect {
         padding-top: 10px;
+        font-size: 24px;
     }
+    .rect__text-bold {
+        font-size: 48px;
+        margin-top: -27px;
+    }
+    .rect:before {
+        left: 16px;
+        top: 37px;
+    }
+    .rect:after {
+        top: 37px;
+        right: 16px;
+    }
+
     .rect__graphic:before {
         top: 34%;
     }
