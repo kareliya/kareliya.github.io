@@ -278,17 +278,6 @@ body {
     text-align: right;
 }
 
-.slide-3 .slider__link {
-    font-family: 'Alegreya Sans';
-    font-size: 32px;
-    position: relative;
-    display: inline-block;
-    font-weight: 300;
-    color: white;
-    /*color: #27414e;*/
-    line-height: 0.8;
-    text-align: right;
-}
 
 .slider__link--bold {
     font-weight: 500;
@@ -314,15 +303,6 @@ body {
     right: 120px;
 }
 
-.slide-3 .slider__link--more:before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 11px;
-    position: absolute;
-    background: url(../img/icon--more-arrow.svg) no-repeat;
-    right: 120px;
-}
 
 .rect {
     max-width: 370px;
